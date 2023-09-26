@@ -71,6 +71,7 @@ public class Main {
                 verb3 = input.next();
                 System.out.println("You entered " + verb3 + ". Please type 'yes' if this is correct: ");
             }
+            input.close();
             System.out.println("Jack and Jill went up the " + noun1);
             System.out.println("To " + verb1 + " a pail of water");
             System.out.println("Jack " + verb2 + " down and broke his " + noun2);
@@ -137,6 +138,7 @@ public class Main {
                 verb2 = input.next();
                 System.out.println("You entered " + verb2 + ". Please type 'yes' if this is correct: ");
             }
+            input.close();
             System.out.println("Mary had a little " + noun1);
             System.out.println("Whose " + noun2 + " was " + adjective1 + " as snow");
             System.out.println("And everywhere that Mary " + verb1);

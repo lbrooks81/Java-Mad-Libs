@@ -1,0 +1,4 @@
+10.5/10 :D
+
+- (-0.5) Scanner's .next() was used instead of nextLine(). That means you can't type in more than one word.
+- (+1) E.C.
